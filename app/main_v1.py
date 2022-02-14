@@ -22,9 +22,9 @@ check_again = 0
 while True:
     try:
         conn = psycopg2.connect(host='localhost', 
-                                database='fastapi',
-                                user='postgres', 
-                                password='postgres@9195',
+                                database='<database>',
+                                user='<postgres_uname>', 
+                                password='<postgres_pw>',
                                 cursor_factory=RealDictCursor)
         cursor = conn.cursor()
         print("Database connection successful")
