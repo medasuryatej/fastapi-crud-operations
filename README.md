@@ -1,5 +1,5 @@
 # fastapi-crud-operations
-Basic CRUD operations performed on a Postgres database created with FastAPI and tested using PostMan
+Basic CRUD operations performed on a Postgres database created with FastAPI, validated with Pydantic, ORM operations using SQLAlchemy and tested using Postman
 
 Requirements
 ```
